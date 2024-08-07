@@ -20,7 +20,7 @@ export default function ProductID({params}:{params:{productid:string}}){
             
           <p className="text-rose-800 text-2xl font-semibold">ID: {product.id}</p>
           <p className="text-rose-800 text-2xl font-semibold">Name: {product.productName}</p>
-          <p className="text-rose-800 text-2xl font-semibold">Name: {product.productDetails}</p>
+          <p className="text-rose-800 text-2xl font-semibold">Product Details: {product.productDetails}</p>
           
           </div>
           
